@@ -1,0 +1,1252 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L 80386_fpga:80386SX U?
+U 1 1 5E295014
+P 4250 800
+F 0 "U?" H 4300 950 50  0000 C CNN
+F 1 "80386SX" H 4900 974 50  0000 C CNN
+F 2 "Package_QFP:TQFP-100_14x14mm_P0.5mm" H 4300 600 50  0001 C CNN
+F 3 "" H 4300 600 50  0001 C CNN
+	1    4250 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5E29D840
+P 6000 800
+F 0 "R?" V 5804 800 50  0000 C CNN
+F 1 "120" V 5895 800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6000 800 50  0001 C CNN
+F 3 "~" H 6000 800 50  0001 C CNN
+	1    6000 800 
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5E29EF75
+P 6250 900
+F 0 "R?" V 6054 900 50  0000 C CNN
+F 1 "120" V 6145 900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6250 900 50  0001 C CNN
+F 3 "~" H 6250 900 50  0001 C CNN
+	1    6250 900 
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5E29F5FF
+P 6500 1000
+F 0 "R?" V 6304 1000 50  0000 C CNN
+F 1 "120" V 6395 1000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6500 1000 50  0001 C CNN
+F 3 "~" H 6500 1000 50  0001 C CNN
+	1    6500 1000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5E29FAFD
+P 6000 1100
+F 0 "R?" V 5804 1100 50  0000 C CNN
+F 1 "120" V 5895 1100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6000 1100 50  0001 C CNN
+F 3 "~" H 6000 1100 50  0001 C CNN
+	1    6000 1100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5E2A01DE
+P 6250 1200
+F 0 "R?" V 6054 1200 50  0000 C CNN
+F 1 "120" V 6145 1200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6250 1200 50  0001 C CNN
+F 3 "~" H 6250 1200 50  0001 C CNN
+	1    6250 1200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5E2A0A14
+P 6500 1300
+F 0 "R?" V 6304 1300 50  0000 C CNN
+F 1 "120" V 6395 1300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6500 1300 50  0001 C CNN
+F 3 "~" H 6500 1300 50  0001 C CNN
+	1    6500 1300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5E2A1D51
+P 6000 1400
+F 0 "R?" V 5804 1400 50  0000 C CNN
+F 1 "120" V 5895 1400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6000 1400 50  0001 C CNN
+F 3 "~" H 6000 1400 50  0001 C CNN
+	1    6000 1400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5E2A22C5
+P 6250 1500
+F 0 "R?" V 6054 1500 50  0000 C CNN
+F 1 "120" V 6145 1500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6250 1500 50  0001 C CNN
+F 3 "~" H 6250 1500 50  0001 C CNN
+	1    6250 1500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5E2A27EF
+P 6500 1600
+F 0 "R?" V 6304 1600 50  0000 C CNN
+F 1 "120" V 6395 1600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6500 1600 50  0001 C CNN
+F 3 "~" H 6500 1600 50  0001 C CNN
+	1    6500 1600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5E2A56D6
+P 6000 1700
+F 0 "R?" V 5804 1700 50  0000 C CNN
+F 1 "120" V 5895 1700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6000 1700 50  0001 C CNN
+F 3 "~" H 6000 1700 50  0001 C CNN
+	1    6000 1700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5E2A5CAB
+P 6250 1800
+F 0 "R?" V 6054 1800 50  0000 C CNN
+F 1 "120" V 6145 1800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6250 1800 50  0001 C CNN
+F 3 "~" H 6250 1800 50  0001 C CNN
+	1    6250 1800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5E2A6215
+P 6500 1900
+F 0 "R?" V 6304 1900 50  0000 C CNN
+F 1 "120" V 6395 1900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6500 1900 50  0001 C CNN
+F 3 "~" H 6500 1900 50  0001 C CNN
+	1    6500 1900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5E2A669F
+P 6000 2000
+F 0 "R?" V 5804 2000 50  0000 C CNN
+F 1 "120" V 5895 2000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6000 2000 50  0001 C CNN
+F 3 "~" H 6000 2000 50  0001 C CNN
+	1    6000 2000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5E2A6C2A
+P 6250 2100
+F 0 "R?" V 6054 2100 50  0000 C CNN
+F 1 "120" V 6145 2100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6250 2100 50  0001 C CNN
+F 3 "~" H 6250 2100 50  0001 C CNN
+	1    6250 2100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5E2A7105
+P 6500 2200
+F 0 "R?" V 6304 2200 50  0000 C CNN
+F 1 "120" V 6395 2200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6500 2200 50  0001 C CNN
+F 3 "~" H 6500 2200 50  0001 C CNN
+	1    6500 2200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5E2A8A94
+P 6000 2300
+F 0 "R?" V 5804 2300 50  0000 C CNN
+F 1 "120" V 5895 2300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6000 2300 50  0001 C CNN
+F 3 "~" H 6000 2300 50  0001 C CNN
+	1    6000 2300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5E2A8FE0
+P 6250 2400
+F 0 "R?" V 6054 2400 50  0000 C CNN
+F 1 "120" V 6145 2400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6250 2400 50  0001 C CNN
+F 3 "~" H 6250 2400 50  0001 C CNN
+	1    6250 2400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5E2A95F5
+P 6500 2500
+F 0 "R?" V 6304 2500 50  0000 C CNN
+F 1 "120" V 6395 2500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6500 2500 50  0001 C CNN
+F 3 "~" H 6500 2500 50  0001 C CNN
+	1    6500 2500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5E2AAA75
+P 6000 2600
+F 0 "R?" V 5804 2600 50  0000 C CNN
+F 1 "120" V 5895 2600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6000 2600 50  0001 C CNN
+F 3 "~" H 6000 2600 50  0001 C CNN
+	1    6000 2600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5E2AB2E9
+P 6250 2700
+F 0 "R?" V 6054 2700 50  0000 C CNN
+F 1 "120" V 6145 2700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6250 2700 50  0001 C CNN
+F 3 "~" H 6250 2700 50  0001 C CNN
+	1    6250 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5E2AB8ED
+P 6500 2800
+F 0 "R?" V 6304 2800 50  0000 C CNN
+F 1 "120" V 6395 2800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6500 2800 50  0001 C CNN
+F 3 "~" H 6500 2800 50  0001 C CNN
+	1    6500 2800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5E2AC716
+P 6000 2900
+F 0 "R?" V 5804 2900 50  0000 C CNN
+F 1 "120" V 5895 2900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6000 2900 50  0001 C CNN
+F 3 "~" H 6000 2900 50  0001 C CNN
+	1    6000 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5E2AD0B8
+P 6250 3000
+F 0 "R?" V 6054 3000 50  0000 C CNN
+F 1 "120" V 6145 3000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6250 3000 50  0001 C CNN
+F 3 "~" H 6250 3000 50  0001 C CNN
+	1    6250 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5E2AD6E9
+P 6500 3100
+F 0 "R?" V 6304 3100 50  0000 C CNN
+F 1 "120" V 6395 3100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6500 3100 50  0001 C CNN
+F 3 "~" H 6500 3100 50  0001 C CNN
+	1    6500 3100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5E2ADD46
+P 6000 3200
+F 0 "R?" V 5804 3200 50  0000 C CNN
+F 1 "120" V 5895 3200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6000 3200 50  0001 C CNN
+F 3 "~" H 6000 3200 50  0001 C CNN
+	1    6000 3200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5650 800  5900 800 
+Wire Wire Line
+	6150 900  5650 900 
+Wire Wire Line
+	5650 1000 6400 1000
+Wire Wire Line
+	5900 1100 5650 1100
+Wire Wire Line
+	6150 1200 5650 1200
+Wire Wire Line
+	6400 1300 5650 1300
+Wire Wire Line
+	5650 1400 5900 1400
+Wire Wire Line
+	5650 1500 6150 1500
+Wire Wire Line
+	6400 1600 5650 1600
+Wire Wire Line
+	5650 1700 5900 1700
+Wire Wire Line
+	5650 1800 6150 1800
+Wire Wire Line
+	6400 1900 5650 1900
+Wire Wire Line
+	5650 2000 5900 2000
+Wire Wire Line
+	6150 2100 5650 2100
+Wire Wire Line
+	5650 2200 6400 2200
+Wire Wire Line
+	6150 2400 5650 2400
+Wire Wire Line
+	5650 2300 5900 2300
+Wire Wire Line
+	6400 2500 5650 2500
+Wire Wire Line
+	5900 2600 5650 2600
+Wire Wire Line
+	6150 2700 5650 2700
+Wire Wire Line
+	5650 2800 6400 2800
+Wire Wire Line
+	5900 2900 5650 2900
+Wire Wire Line
+	5650 3000 6150 3000
+Wire Wire Line
+	6400 3100 5650 3100
+Wire Wire Line
+	5650 3200 5900 3200
+Text Label 6650 800  0    50   ~ 0
+CPU_FPGA_A23
+Wire Wire Line
+	6100 800  7250 800 
+Wire Wire Line
+	6350 900  7250 900 
+Wire Wire Line
+	6600 1000 7250 1000
+Wire Wire Line
+	6100 1100 7250 1100
+Wire Wire Line
+	6350 1200 7250 1200
+Wire Wire Line
+	6600 1300 7250 1300
+Wire Wire Line
+	6100 1400 7250 1400
+Wire Wire Line
+	6350 1500 7250 1500
+Wire Wire Line
+	6600 1600 7250 1600
+Wire Wire Line
+	6100 1700 7250 1700
+Wire Wire Line
+	6350 1800 7250 1800
+Wire Wire Line
+	6600 1900 7250 1900
+Wire Wire Line
+	6100 2000 7250 2000
+Wire Wire Line
+	6350 2100 7250 2100
+Wire Wire Line
+	6600 2200 7250 2200
+Wire Wire Line
+	6100 2300 7250 2300
+Wire Wire Line
+	6350 2400 7250 2400
+Wire Wire Line
+	6600 2500 7250 2500
+Wire Wire Line
+	6100 2600 7250 2600
+Wire Wire Line
+	6350 2700 7250 2700
+Wire Wire Line
+	6600 2800 7250 2800
+Wire Wire Line
+	6100 2900 7250 2900
+Wire Wire Line
+	6350 3000 7250 3000
+Wire Wire Line
+	6600 3100 7250 3100
+Wire Wire Line
+	6100 3200 7250 3200
+Text Label 6650 3200 0    50   ~ 0
+CPU_FPGA_~BLE
+Text Label 6650 3100 0    50   ~ 0
+CPU_FPGA_~BHE
+Text Label 6650 2900 0    50   ~ 0
+CPU_FPGA_A2
+Text Label 6650 2800 0    50   ~ 0
+CPU_FPGA_A3
+Text Label 6650 3000 0    50   ~ 0
+CPU_FPGA_A1
+Text Label 6650 2700 0    50   ~ 0
+CPU_FPGA_A4
+Text Label 6650 2600 0    50   ~ 0
+CPU_FPGA_A5
+Text Label 6650 2500 0    50   ~ 0
+CPU_FPGA_A6
+Text Label 6650 2400 0    50   ~ 0
+CPU_FPGA_A7
+Text Label 6650 2300 0    50   ~ 0
+CPU_FPGA_A8
+Text Label 6650 2200 0    50   ~ 0
+CPU_FPGA_A9
+Text Label 6650 2100 0    50   ~ 0
+CPU_FPGA_A10
+Text Label 6650 2000 0    50   ~ 0
+CPU_FPGA_A11
+Text Label 6650 1900 0    50   ~ 0
+CPU_FPGA_A12
+Text Label 6650 1800 0    50   ~ 0
+CPU_FPGA_A13
+Text Label 6650 1700 0    50   ~ 0
+CPU_FPGA_A14
+Text Label 6650 1600 0    50   ~ 0
+CPU_FPGA_A15
+Text Label 6650 1500 0    50   ~ 0
+CPU_FPGA_A16
+Text Label 6650 1400 0    50   ~ 0
+CPU_FPGA_A17
+Text Label 6650 1300 0    50   ~ 0
+CPU_FPGA_A18
+Text Label 6650 1200 0    50   ~ 0
+CPU_FPGA_A19
+Text Label 6650 1100 0    50   ~ 0
+CPU_FPGA_A20
+Text Label 6650 1000 0    50   ~ 0
+CPU_FPGA_A21
+Text Label 6650 900  0    50   ~ 0
+CPU_FPGA_A22
+Text HLabel 8250 800  2    50   Output ~ 0
+CPU_FPGA_ADDR[23:0]
+Entry Wire Line
+	7250 800  7350 900 
+Entry Wire Line
+	7250 900  7350 1000
+Entry Wire Line
+	7250 1000 7350 1100
+Entry Wire Line
+	7250 1100 7350 1200
+Entry Wire Line
+	7250 1200 7350 1300
+Entry Wire Line
+	7250 1300 7350 1400
+Entry Wire Line
+	7250 1400 7350 1500
+Entry Wire Line
+	7250 1500 7350 1600
+Entry Wire Line
+	7250 3200 7350 3300
+Entry Wire Line
+	7250 3100 7350 3200
+Entry Wire Line
+	7250 3000 7350 3100
+Entry Wire Line
+	7250 2900 7350 3000
+Entry Wire Line
+	7250 2800 7350 2900
+Entry Wire Line
+	7250 2700 7350 2800
+Entry Wire Line
+	7250 2600 7350 2700
+Entry Wire Line
+	7250 2500 7350 2600
+Entry Wire Line
+	7250 2400 7350 2500
+Entry Wire Line
+	7250 2300 7350 2400
+Entry Wire Line
+	7250 2200 7350 2300
+Entry Wire Line
+	7250 2100 7350 2200
+Entry Wire Line
+	7250 2000 7350 2100
+Entry Wire Line
+	7250 1900 7350 2000
+Entry Wire Line
+	7250 1800 7350 1900
+Entry Wire Line
+	7250 1700 7350 1800
+Entry Wire Line
+	7250 1600 7350 1700
+Wire Bus Line
+	7350 800  8250 800 
+$Comp
+L Device:R_Small R?
+U 1 1 5E30DBA2
+P 6250 3400
+F 0 "R?" V 6054 3400 50  0000 C CNN
+F 1 "120" V 6145 3400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6250 3400 50  0001 C CNN
+F 3 "~" H 6250 3400 50  0001 C CNN
+	1    6250 3400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5E30E9F9
+P 6500 3500
+F 0 "R?" V 6304 3500 50  0000 C CNN
+F 1 "120" V 6395 3500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6500 3500 50  0001 C CNN
+F 3 "~" H 6500 3500 50  0001 C CNN
+	1    6500 3500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5E30F09C
+P 6000 3600
+F 0 "R?" V 5804 3600 50  0000 C CNN
+F 1 "120" V 5895 3600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6000 3600 50  0001 C CNN
+F 3 "~" H 6000 3600 50  0001 C CNN
+	1    6000 3600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5E30F920
+P 6250 3700
+F 0 "R?" V 6054 3700 50  0000 C CNN
+F 1 "120" V 6145 3700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6250 3700 50  0001 C CNN
+F 3 "~" H 6250 3700 50  0001 C CNN
+	1    6250 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5E30FDB2
+P 6500 3800
+F 0 "R?" V 6304 3800 50  0000 C CNN
+F 1 "120" V 6395 3800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6500 3800 50  0001 C CNN
+F 3 "~" H 6500 3800 50  0001 C CNN
+	1    6500 3800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5E310237
+P 6000 3900
+F 0 "R?" V 5804 3900 50  0000 C CNN
+F 1 "120" V 5895 3900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6000 3900 50  0001 C CNN
+F 3 "~" H 6000 3900 50  0001 C CNN
+	1    6000 3900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5E3108D0
+P 6250 4000
+F 0 "R?" V 6054 4000 50  0000 C CNN
+F 1 "120" V 6145 4000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6250 4000 50  0001 C CNN
+F 3 "~" H 6250 4000 50  0001 C CNN
+	1    6250 4000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5E310EDF
+P 6500 4100
+F 0 "R?" V 6304 4100 50  0000 C CNN
+F 1 "120" V 6395 4100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6500 4100 50  0001 C CNN
+F 3 "~" H 6500 4100 50  0001 C CNN
+	1    6500 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5E311B43
+P 6000 4200
+F 0 "R?" V 5804 4200 50  0000 C CNN
+F 1 "120" V 5895 4200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6000 4200 50  0001 C CNN
+F 3 "~" H 6000 4200 50  0001 C CNN
+	1    6000 4200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5E312472
+P 6250 4300
+F 0 "R?" V 6054 4300 50  0000 C CNN
+F 1 "120" V 6145 4300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6250 4300 50  0001 C CNN
+F 3 "~" H 6250 4300 50  0001 C CNN
+	1    6250 4300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5E3128BE
+P 6500 4400
+F 0 "R?" V 6304 4400 50  0000 C CNN
+F 1 "120" V 6395 4400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6500 4400 50  0001 C CNN
+F 3 "~" H 6500 4400 50  0001 C CNN
+	1    6500 4400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5E312DD1
+P 6000 4500
+F 0 "R?" V 5804 4500 50  0000 C CNN
+F 1 "120" V 5895 4500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6000 4500 50  0001 C CNN
+F 3 "~" H 6000 4500 50  0001 C CNN
+	1    6000 4500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5E3134C0
+P 6250 4600
+F 0 "R?" V 6054 4600 50  0000 C CNN
+F 1 "120" V 6145 4600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6250 4600 50  0001 C CNN
+F 3 "~" H 6250 4600 50  0001 C CNN
+	1    6250 4600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5E313BAD
+P 6500 4700
+F 0 "R?" V 6304 4700 50  0000 C CNN
+F 1 "120" V 6395 4700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6500 4700 50  0001 C CNN
+F 3 "~" H 6500 4700 50  0001 C CNN
+	1    6500 4700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5E314091
+P 6000 4800
+F 0 "R?" V 5804 4800 50  0000 C CNN
+F 1 "120" V 5895 4800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6000 4800 50  0001 C CNN
+F 3 "~" H 6000 4800 50  0001 C CNN
+	1    6000 4800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5E31463B
+P 6250 4900
+F 0 "R?" V 6054 4900 50  0000 C CNN
+F 1 "120" V 6145 4900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6250 4900 50  0001 C CNN
+F 3 "~" H 6250 4900 50  0001 C CNN
+	1    6250 4900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5650 3400 6150 3400
+Wire Wire Line
+	5650 3500 6400 3500
+Wire Wire Line
+	5900 3600 5650 3600
+Wire Wire Line
+	5650 3700 6150 3700
+Wire Wire Line
+	6400 3800 5650 3800
+Wire Wire Line
+	5650 3900 5900 3900
+Wire Wire Line
+	6150 4000 5650 4000
+Wire Wire Line
+	5650 4100 6400 4100
+Wire Wire Line
+	5650 4200 5900 4200
+Wire Wire Line
+	5650 4300 6150 4300
+Wire Wire Line
+	5650 4400 6400 4400
+Wire Wire Line
+	5650 4500 5900 4500
+Wire Wire Line
+	5650 4600 6150 4600
+Wire Wire Line
+	5650 4700 6400 4700
+Wire Wire Line
+	5650 4800 5900 4800
+Wire Wire Line
+	5650 4900 6150 4900
+Wire Wire Line
+	6350 3400 7250 3400
+Wire Wire Line
+	6600 3500 7250 3500
+Wire Wire Line
+	6100 3600 7250 3600
+Wire Wire Line
+	6350 3700 7250 3700
+Wire Wire Line
+	6600 3800 7250 3800
+Wire Wire Line
+	6100 3900 7250 3900
+Wire Wire Line
+	6350 4000 7250 4000
+Wire Wire Line
+	6600 4100 7250 4100
+Wire Wire Line
+	6100 4200 7250 4200
+Wire Wire Line
+	6350 4300 7250 4300
+Wire Wire Line
+	6600 4400 7250 4400
+Wire Wire Line
+	6100 4500 7250 4500
+Wire Wire Line
+	6350 4600 7250 4600
+Wire Wire Line
+	6600 4700 7250 4700
+Wire Wire Line
+	6100 4800 7250 4800
+Wire Wire Line
+	6350 4900 7250 4900
+Text Label 6650 4900 0    50   ~ 0
+CPU_FPGA_D0
+Text Label 6650 4800 0    50   ~ 0
+CPU_FPGA_D1
+Text Label 6650 4700 0    50   ~ 0
+CPU_FPGA_D2
+Text Label 6650 4600 0    50   ~ 0
+CPU_FPGA_D3
+Text Label 6650 4500 0    50   ~ 0
+CPU_FPGA_D4
+Text Label 6650 4400 0    50   ~ 0
+CPU_FPGA_D5
+Text Label 6650 4300 0    50   ~ 0
+CPU_FPGA_D6
+Text Label 6650 4200 0    50   ~ 0
+CPU_FPGA_D7
+Text Label 6650 4100 0    50   ~ 0
+CPU_FPGA_D8
+Text Label 6650 4000 0    50   ~ 0
+CPU_FPGA_D9
+Text Label 6650 3900 0    50   ~ 0
+CPU_FPGA_D10
+Text Label 6650 3800 0    50   ~ 0
+CPU_FPGA_D11
+Text Label 6650 3700 0    50   ~ 0
+CPU_FPGA_D12
+Text Label 6650 3600 0    50   ~ 0
+CPU_FPGA_D13
+Text Label 6650 3500 0    50   ~ 0
+CPU_FPGA_D14
+Text Label 6650 3400 0    50   ~ 0
+CPU_FPGA_D15
+Entry Wire Line
+	7250 3400 7350 3500
+Entry Wire Line
+	7250 3500 7350 3600
+Entry Wire Line
+	7250 3600 7350 3700
+Entry Wire Line
+	7250 3700 7350 3800
+Entry Wire Line
+	7250 3800 7350 3900
+Entry Wire Line
+	7250 3900 7350 4000
+Entry Wire Line
+	7250 4000 7350 4100
+Entry Wire Line
+	7250 4100 7350 4200
+Entry Wire Line
+	7250 4200 7350 4300
+Entry Wire Line
+	7250 4300 7350 4400
+Entry Wire Line
+	7250 4400 7350 4500
+Entry Wire Line
+	7250 4500 7350 4600
+Entry Wire Line
+	7250 4600 7350 4700
+Entry Wire Line
+	7250 4700 7350 4800
+Entry Wire Line
+	7250 4800 7350 4900
+Entry Wire Line
+	7250 4900 7350 5000
+Wire Bus Line
+	7350 3400 8300 3400
+Text HLabel 8300 3400 2    50   BiDi ~ 0
+CPU_FPGA_D[15:0]
+$Comp
+L Device:R_Small R?
+U 1 1 5E41FA05
+P 7750 4900
+F 0 "R?" H 7691 4854 50  0000 R CNN
+F 1 "20k" H 7691 4945 50  0000 R CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7750 4900 50  0001 C CNN
+F 3 "~" H 7750 4900 50  0001 C CNN
+	1    7750 4900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5E42072D
+P 8100 5100
+F 0 "R?" V 7904 5100 50  0000 C CNN
+F 1 "120" V 7995 5100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8100 5100 50  0001 C CNN
+F 3 "~" H 8100 5100 50  0001 C CNN
+	1    8100 5100
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5E4284AD
+P 7750 4700
+F 0 "#PWR?" H 7750 4550 50  0001 C CNN
+F 1 "+5V" H 7765 4873 50  0000 C CNN
+F 2 "" H 7750 4700 50  0001 C CNN
+F 3 "" H 7750 4700 50  0001 C CNN
+	1    7750 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7750 4700 7750 4750
+Wire Wire Line
+	8000 5100 7750 5100
+$Comp
+L Device:R_Small R?
+U 1 1 5E430571
+P 8350 5200
+F 0 "R?" V 8154 5200 50  0000 C CNN
+F 1 "120" V 8245 5200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8350 5200 50  0001 C CNN
+F 3 "~" H 8350 5200 50  0001 C CNN
+	1    8350 5200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5E430A7D
+P 8600 5300
+F 0 "R?" V 8404 5300 50  0000 C CNN
+F 1 "120" V 8495 5300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8600 5300 50  0001 C CNN
+F 3 "~" H 8600 5300 50  0001 C CNN
+	1    8600 5300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5E438875
+P 8100 5400
+F 0 "R?" V 7904 5400 50  0000 C CNN
+F 1 "120" V 7995 5400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8100 5400 50  0001 C CNN
+F 3 "~" H 8100 5400 50  0001 C CNN
+	1    8100 5400
+	0    1    1    0   
+$EndComp
+Connection ~ 7750 5100
+Wire Wire Line
+	7750 5000 7750 5100
+$Comp
+L Device:R_Small R?
+U 1 1 5E454ABB
+P 7500 4900
+F 0 "R?" H 7441 4854 50  0000 R CNN
+F 1 "20k" H 7441 4945 50  0000 R CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7500 4900 50  0001 C CNN
+F 3 "~" H 7500 4900 50  0001 C CNN
+	1    7500 4900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7500 4800 7500 4750
+Wire Wire Line
+	7500 4750 7750 4750
+Connection ~ 7750 4750
+Wire Wire Line
+	7750 4750 7750 4800
+Wire Wire Line
+	5650 5500 7500 5500
+Wire Wire Line
+	7500 5500 7500 5000
+$Comp
+L Device:R_Small R?
+U 1 1 5E45F248
+P 8350 5500
+F 0 "R?" V 8154 5500 50  0000 C CNN
+F 1 "120" V 8245 5500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8350 5500 50  0001 C CNN
+F 3 "~" H 8350 5500 50  0001 C CNN
+	1    8350 5500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5650 5100 7750 5100
+Wire Wire Line
+	5650 5200 8250 5200
+Wire Wire Line
+	5650 5300 8500 5300
+Wire Wire Line
+	5650 5400 8000 5400
+$Comp
+L Device:R_Small R?
+U 1 1 5E471A78
+P 8600 5600
+F 0 "R?" V 8404 5600 50  0000 C CNN
+F 1 "120" V 8495 5600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8600 5600 50  0001 C CNN
+F 3 "~" H 8600 5600 50  0001 C CNN
+	1    8600 5600
+	0    1    1    0   
+$EndComp
+Text Label 8850 5100 0    50   ~ 0
+CPU_FPGA_~ADS
+Text Label 8850 5200 0    50   ~ 0
+CPU_FPGA_M~IO
+Text Label 8850 5300 0    50   ~ 0
+CPU_FPGA_D~C
+Text Label 8850 5400 0    50   ~ 0
+CPU_FPGA_W~R
+Text Label 8850 5500 0    50   ~ 0
+CPU_FPGA_~LOCK
+Text Label 8850 5600 0    50   ~ 0
+CPU_FPGA_HLDA
+Wire Wire Line
+	8200 5100 9600 5100
+Wire Wire Line
+	8450 5200 9600 5200
+Wire Wire Line
+	8700 5300 9600 5300
+Wire Wire Line
+	8200 5400 9600 5400
+Wire Wire Line
+	8450 5500 9600 5500
+Wire Wire Line
+	8700 5600 9600 5600
+Wire Wire Line
+	5650 5600 8500 5600
+Wire Wire Line
+	8250 5500 7500 5500
+Connection ~ 7500 5500
+Text HLabel 9600 5100 2    50   Output ~ 0
+CPU_FPGA_~ADS
+Text HLabel 9600 5200 2    50   Output ~ 0
+CPU_FPGA_M~IO
+Text HLabel 9600 5300 2    50   Output ~ 0
+CPU_FPGA_D~C
+Text HLabel 9600 5400 2    50   Output ~ 0
+CPU_FPGA_W~R
+Text HLabel 9600 5500 2    50   Output ~ 0
+CPU_FPGA_~LOCK
+Text HLabel 9600 5600 2    50   Output ~ 0
+CPU_FPGA_HLDA
+$Comp
+L power:+5V #PWR?
+U 1 1 5E4B0309
+P 4050 750
+F 0 "#PWR?" H 4050 600 50  0001 C CNN
+F 1 "+5V" H 4065 923 50  0000 C CNN
+F 2 "" H 4050 750 50  0001 C CNN
+F 3 "" H 4050 750 50  0001 C CNN
+	1    4050 750 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 750  4050 800 
+Wire Wire Line
+	4050 2100 4150 2100
+Wire Wire Line
+	4050 2000 4150 2000
+Connection ~ 4050 2000
+Wire Wire Line
+	4050 2000 4050 2100
+Wire Wire Line
+	4150 1900 4050 1900
+Connection ~ 4050 1900
+Wire Wire Line
+	4050 1900 4050 2000
+Wire Wire Line
+	4150 1800 4050 1800
+Connection ~ 4050 1800
+Wire Wire Line
+	4050 1800 4050 1900
+Wire Wire Line
+	4150 1700 4050 1700
+Connection ~ 4050 1700
+Wire Wire Line
+	4050 1700 4050 1800
+Wire Wire Line
+	4150 1600 4050 1600
+Connection ~ 4050 1600
+Wire Wire Line
+	4050 1600 4050 1700
+Wire Wire Line
+	4150 1500 4050 1500
+Connection ~ 4050 1500
+Wire Wire Line
+	4050 1500 4050 1600
+Wire Wire Line
+	4150 1400 4050 1400
+Connection ~ 4050 1400
+Wire Wire Line
+	4050 1400 4050 1500
+Wire Wire Line
+	4150 1300 4050 1300
+Connection ~ 4050 1300
+Wire Wire Line
+	4050 1300 4050 1400
+Wire Wire Line
+	4150 1200 4050 1200
+Connection ~ 4050 1200
+Wire Wire Line
+	4050 1200 4050 1300
+Wire Wire Line
+	4150 1100 4050 1100
+Connection ~ 4050 1100
+Wire Wire Line
+	4050 1100 4050 1200
+Wire Wire Line
+	4150 1000 4050 1000
+Connection ~ 4050 1000
+Wire Wire Line
+	4050 1000 4050 1100
+Wire Wire Line
+	4150 900  4050 900 
+Connection ~ 4050 900 
+Wire Wire Line
+	4050 900  4050 1000
+Wire Wire Line
+	4150 800  4050 800 
+Connection ~ 4050 800 
+Wire Wire Line
+	4050 800  4050 900 
+$Comp
+L power:GND #PWR?
+U 1 1 5E50C70F
+P 4050 4100
+F 0 "#PWR?" H 4050 3850 50  0001 C CNN
+F 1 "GND" H 4055 3927 50  0000 C CNN
+F 2 "" H 4050 4100 50  0001 C CNN
+F 3 "" H 4050 4100 50  0001 C CNN
+	1    4050 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 4100 4050 4000
+Wire Wire Line
+	4050 2300 4150 2300
+Wire Wire Line
+	4150 2400 4050 2400
+Connection ~ 4050 2400
+Wire Wire Line
+	4050 2400 4050 2300
+Wire Wire Line
+	4150 2500 4050 2500
+Connection ~ 4050 2500
+Wire Wire Line
+	4050 2500 4050 2400
+Wire Wire Line
+	4150 2600 4050 2600
+Connection ~ 4050 2600
+Wire Wire Line
+	4050 2600 4050 2500
+Wire Wire Line
+	4150 2700 4050 2700
+Connection ~ 4050 2700
+Wire Wire Line
+	4050 2700 4050 2600
+Wire Wire Line
+	4150 2800 4050 2800
+Connection ~ 4050 2800
+Wire Wire Line
+	4050 2800 4050 2700
+Wire Wire Line
+	4150 2900 4050 2900
+Connection ~ 4050 2900
+Wire Wire Line
+	4050 2900 4050 2800
+Wire Wire Line
+	4150 3000 4050 3000
+Connection ~ 4050 3000
+Wire Wire Line
+	4050 3000 4050 2900
+Wire Wire Line
+	4150 3100 4050 3100
+Connection ~ 4050 3100
+Wire Wire Line
+	4050 3100 4050 3000
+Wire Wire Line
+	4150 3200 4050 3200
+Connection ~ 4050 3200
+Wire Wire Line
+	4050 3200 4050 3100
+Wire Wire Line
+	4150 3300 4050 3300
+Connection ~ 4050 3300
+Wire Wire Line
+	4050 3300 4050 3200
+Wire Wire Line
+	4150 3400 4050 3400
+Connection ~ 4050 3400
+Wire Wire Line
+	4050 3400 4050 3300
+Wire Wire Line
+	4150 3500 4050 3500
+Connection ~ 4050 3500
+Wire Wire Line
+	4050 3500 4050 3400
+Wire Wire Line
+	4150 3600 4050 3600
+Connection ~ 4050 3600
+Wire Wire Line
+	4050 3600 4050 3500
+Wire Wire Line
+	4150 3700 4050 3700
+Connection ~ 4050 3700
+Wire Wire Line
+	4050 3700 4050 3600
+Wire Wire Line
+	4150 3800 4050 3800
+Connection ~ 4050 3800
+Wire Wire Line
+	4050 3800 4050 3700
+Wire Wire Line
+	4150 3900 4050 3900
+Connection ~ 4050 3900
+Wire Wire Line
+	4050 3900 4050 3800
+Wire Wire Line
+	4150 4000 4050 4000
+Connection ~ 4050 4000
+Wire Wire Line
+	4050 4000 4050 3900
+$Comp
+L Device:R_Small R?
+U 1 1 5E5B5AF2
+P 3400 4350
+F 0 "R?" H 3341 4304 50  0000 R CNN
+F 1 "20k" H 3341 4395 50  0000 R CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3400 4350 50  0001 C CNN
+F 3 "~" H 3400 4350 50  0001 C CNN
+	1    3400 4350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4150 4600 2500 4600
+Text Label 2600 4600 0    50   ~ 0
+CPU_CLK2
+Text Label 2600 4700 0    50   ~ 0
+FPGA_CPU_RESET
+Text Label 2600 4900 0    50   ~ 0
+FPGA_CPU_~READY
+Wire Wire Line
+	2500 4700 4150 4700
+Wire Wire Line
+	4150 4800 3400 4800
+Wire Wire Line
+	3400 4800 3400 4450
+Wire Wire Line
+	4150 4900 2500 4900
+$Comp
+L power:+5V #PWR?
+U 1 1 5E5E48BF
+P 3400 4150
+F 0 "#PWR?" H 3400 4000 50  0001 C CNN
+F 1 "+5V" H 3415 4323 50  0000 C CNN
+F 2 "" H 3400 4150 50  0001 C CNN
+F 3 "" H 3400 4150 50  0001 C CNN
+	1    3400 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 4150 3400 4250
+Wire Wire Line
+	4150 5000 2500 5000
+Wire Wire Line
+	4150 5100 2500 5100
+Wire Wire Line
+	4150 5200 2500 5200
+Wire Wire Line
+	4150 5300 2500 5300
+Wire Wire Line
+	4150 5400 2500 5400
+Wire Wire Line
+	4150 5500 2500 5500
+Wire Wire Line
+	4150 5600 2500 5600
+Wire Bus Line
+	7350 3400 7350 5000
+Wire Bus Line
+	7350 800  7350 3300
+Text Label 2600 5000 0    50   ~ 0
+FPGA_CPU_HOLD
+Text Label 2600 5100 0    50   ~ 0
+FPGA_CPU_INTR
+Text Label 2600 5200 0    50   ~ 0
+FPGA_CPU_NMI
+Text Label 2600 5300 0    50   ~ 0
+FPGA_CPU_~BUSY
+Text Label 2600 5400 0    50   ~ 0
+FPGA_CPU_~ERROR
+Text Label 2600 5500 0    50   ~ 0
+FPGA_CPU_PEREQ
+Text Label 2600 5600 0    50   ~ 0
+FPGA_CPU_~FLT
+Text HLabel 2500 4600 0    50   Input ~ 0
+CPU_CLK2
+Text HLabel 2500 4700 0    50   Input ~ 0
+FPGA_CPU_RESET
+Text HLabel 2500 4900 0    50   Input ~ 0
+FPGA_CPU_~READY
+Text HLabel 2500 5000 0    50   Input ~ 0
+FPGA_CPU_HOLD
+Text HLabel 2500 5100 0    50   Input ~ 0
+FPGA_CPU_INTR
+Text HLabel 2500 5200 0    50   Input ~ 0
+FPGA_CPU_NMI
+Text HLabel 2500 5300 0    50   Input ~ 0
+FPGA_CPU_~BUSY
+Text HLabel 2500 5400 0    50   Input ~ 0
+FPGA_CPU_~ERROR
+Text HLabel 2500 5500 0    50   Input ~ 0
+FPGA_CPU_PEREQ
+Text HLabel 2500 5600 0    50   Input ~ 0
+FPGA_CPU_~FLT
+$EndSCHEMATC

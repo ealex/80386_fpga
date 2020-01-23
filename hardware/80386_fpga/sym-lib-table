@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name 80386_fpga)(type Legacy)(uri ${KIPRJMOD}/80386_fpga.lib)(options "")(descr ""))
+)
