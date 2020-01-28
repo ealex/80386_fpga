@@ -1,0 +1,115 @@
+set_global_assignment -name RESERVE_DATA0_AFTER_CONFIGURATION "USE AS REGULAR IO"
+set_global_assignment -name FAMILY "Cyclone IV E"
+set_global_assignment -name DEVICE EP4CE6F17C8
+set_global_assignment -name TOP_LEVEL_ENTITY top_level
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 9.1
+set_global_assignment -name LAST_QUARTUS_VERSION "18.1.0 Lite Edition"
+
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "3.0-V LVTTL"
+
+set_global_assignment -name EDA_SIMULATION_TOOL "<None>"
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT NONE -section_id eda_simulation
+
+set_instance_assignment -name IO_STANDARD "3.0-V PCI" -to epcs_data0
+set_instance_assignment -name IO_STANDARD "3.0-V PCI" -to epcs_dclk
+set_instance_assignment -name IO_STANDARD "3.0-V PCI" -to epcs_ncso
+set_instance_assignment -name IO_STANDARD "3.0-V PCI" -to epcs_asdo
+set_instance_assignment -name IO_STANDARD "3.0-V PCI" -to clk
+set_instance_assignment -name IO_STANDARD "3.0-V PCI" -to led_tst
+set_instance_assignment -name IO_STANDARD "3.0-V PCI" -to a[1]
+set_instance_assignment -name IO_STANDARD "3.0-V PCI" -to a[2]
+set_instance_assignment -name IO_STANDARD "3.0-V PCI" -to a[3]
+set_instance_assignment -name IO_STANDARD "3.0-V PCI" -to a[4]
+set_instance_assignment -name IO_STANDARD "3.0-V PCI" -to a[5]
+set_instance_assignment -name IO_STANDARD "3.0-V PCI" -to a[6]
+set_instance_assignment -name IO_STANDARD "3.0-V PCI" -to a[7]
+set_instance_assignment -name IO_STANDARD "3.0-V PCI" -to a[8]
+set_instance_assignment -name IO_STANDARD "3.0-V PCI" -to a[9]
+set_instance_assignment -name IO_STANDARD "3.0-V PCI" -to a[10]
+set_instance_assignment -name IO_STANDARD "3.0-V PCI" -to a[11]
+set_instance_assignment -name IO_STANDARD "3.0-V PCI" -to a[12]
+set_instance_assignment -name IO_STANDARD "3.0-V PCI" -to a[13]
+set_instance_assignment -name IO_STANDARD "3.0-V PCI" -to a[14]
+set_instance_assignment -name IO_STANDARD "3.0-V PCI" -to a[15]
+set_instance_assignment -name IO_STANDARD "3.0-V PCI" -to a[16]
+set_instance_assignment -name IO_STANDARD "3.0-V PCI" -to a[17]
+set_instance_assignment -name IO_STANDARD "3.0-V PCI" -to a[18]
+set_instance_assignment -name IO_STANDARD "3.0-V PCI" -to a[19]
+set_instance_assignment -name IO_STANDARD "3.0-V PCI" -to a[20]
+set_instance_assignment -name IO_STANDARD "3.0-V PCI" -to a[21]
+set_instance_assignment -name IO_STANDARD "3.0-V PCI" -to a[22]
+set_instance_assignment -name IO_STANDARD "3.0-V PCI" -to a[23]
+set_instance_assignment -name IO_STANDARD "3.0-V PCI" -to _bhe
+set_instance_assignment -name IO_STANDARD "3.0-V PCI" -to _ble
+set_instance_assignment -name IO_STANDARD "3.0-V PCI" -to _ads
+set_instance_assignment -name IO_STANDARD "3.0-V PCI" -to d[0]
+set_instance_assignment -name IO_STANDARD "3.0-V PCI" -to d[1]
+set_instance_assignment -name IO_STANDARD "3.0-V PCI" -to d[2]
+set_instance_assignment -name IO_STANDARD "3.0-V PCI" -to d[3]
+set_instance_assignment -name IO_STANDARD "3.0-V PCI" -to d[4]
+set_instance_assignment -name IO_STANDARD "3.0-V PCI" -to d[5]
+set_instance_assignment -name IO_STANDARD "3.0-V PCI" -to d[6]
+set_instance_assignment -name IO_STANDARD "3.0-V PCI" -to d[7]
+set_instance_assignment -name IO_STANDARD "3.0-V PCI" -to d[8]
+set_instance_assignment -name IO_STANDARD "3.0-V PCI" -to d[9]
+set_instance_assignment -name IO_STANDARD "3.0-V PCI" -to d[10]
+set_instance_assignment -name IO_STANDARD "3.0-V PCI" -to d[11]
+set_instance_assignment -name IO_STANDARD "3.0-V PCI" -to d[12]
+set_instance_assignment -name IO_STANDARD "3.0-V PCI" -to d[13]
+set_instance_assignment -name IO_STANDARD "3.0-V PCI" -to d[14]
+set_instance_assignment -name IO_STANDARD "3.0-V PCI" -to d[15]
+set_instance_assignment -name IO_STANDARD "3.0-V PCI" -to _ready
+set_instance_assignment -name IO_STANDARD "3.0-V PCI" -to hold
+set_instance_assignment -name IO_STANDARD "3.0-V PCI" -to hlda
+set_instance_assignment -name IO_STANDARD "3.0-V PCI" -to intr
+set_instance_assignment -name IO_STANDARD "3.0-V PCI" -to nmi
+set_instance_assignment -name IO_STANDARD "3.0-V PCI" -to reset
+set_instance_assignment -name IO_STANDARD "3.0-V PCI" -to _lock
+set_instance_assignment -name IO_STANDARD "3.0-V PCI" -to wr
+set_instance_assignment -name IO_STANDARD "3.0-V PCI" -to dc
+set_instance_assignment -name IO_STANDARD "3.0-V PCI" -to mio
+set_instance_assignment -name IO_STANDARD "3.0-V PCI" -to uart_tx
+set_instance_assignment -name IO_STANDARD "3.0-V PCI" -to uart_rx
+set_instance_assignment -name IO_STANDARD "3.0-V PCI" -to ramwe
+set_instance_assignment -name IO_STANDARD "3.0-V PCI" -to ramcs
+
+
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+
+
+set_global_assignment -name ENABLE_SIGNALTAP OFF
+set_global_assignment -name USE_SIGNALTAP_FILE stp/cpu_signals.stp
+
+
+
+set_global_assignment -name ENABLE_CONFIGURATION_PINS OFF
+set_global_assignment -name ENABLE_NCE_PIN OFF
+set_global_assignment -name ENABLE_BOOT_SEL_PIN OFF
+set_global_assignment -name USE_CONFIGURATION_DEVICE ON
+set_global_assignment -name CYCLONEIII_CONFIGURATION_DEVICE EPCS16
+set_global_assignment -name CRC_ERROR_OPEN_DRAIN OFF
+set_global_assignment -name OUTPUT_IO_TIMING_NEAR_END_VMEAS "HALF VCCIO" -rise
+set_global_assignment -name OUTPUT_IO_TIMING_NEAR_END_VMEAS "HALF VCCIO" -fall
+set_global_assignment -name OUTPUT_IO_TIMING_FAR_END_VMEAS "HALF SIGNAL SWING" -rise
+set_global_assignment -name OUTPUT_IO_TIMING_FAR_END_VMEAS "HALF SIGNAL SWING" -fall
+
+set_global_assignment -name FORCE_CONFIGURATION_VCCIO ON
+
+
+set_global_assignment -name VERILOG_FILE rtl/ocd.v
+set_global_assignment -name QSYS_FILE rtl/supervisor/supervisor_qsys.qsys
+set_global_assignment -name VERILOG_FILE rtl/supervisor.v
+set_global_assignment -name QIP_FILE rtl/internal_ram.qip
+set_global_assignment -name VERILOG_FILE rtl/bus_control.v
+set_global_assignment -name VERILOG_FILE rtl/memory_control.v
+set_global_assignment -name VERILOG_FILE rtl/top_level.v
+set_global_assignment -name QIP_FILE rtl/pll.qip
+set_global_assignment -name SIGNALTAP_FILE stp/cpu_signals.stp
+set_global_assignment -name DEVICE_FILTER_PACKAGE FBGA
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
