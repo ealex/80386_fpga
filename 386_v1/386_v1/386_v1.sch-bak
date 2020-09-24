@@ -117,7 +117,7 @@ F 3 "~" H 1450 5900 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	3050 4550 1750 4550
+	3050 4550 2100 4550
 Wire Wire Line
 	1600 4450 3050 4450
 Text Label 14100 3850 0    50   ~ 0
@@ -369,7 +369,7 @@ Text Label 12550 8100 0    50   ~ 0
 F_NMI_I
 Text Label 12550 8000 0    50   ~ 0
 F_INTR_I
-Text Label 12450 2550 2    50   ~ 0
+Text Label 11700 2550 2    50   ~ 0
 F_HLDA_O
 Text Label 14100 3450 0    50   ~ 0
 F_HOLD_I
@@ -477,8 +477,6 @@ Text Label 12450 3250 2    50   ~ 0
 F_D2_IO
 Wire Wire Line
 	13050 2850 12450 2850
-Wire Wire Line
-	13050 2550 12450 2550
 Wire Wire Line
 	13050 2250 12450 2250
 Wire Wire Line
@@ -710,40 +708,12 @@ Text Label 9250 3350 0    50   ~ 0
 F_D~C~_O
 Text Label 9250 3250 0    50   ~ 0
 F_W~R~_O
-Text Label 550  5100 0    50   ~ 0
+Text Label 550  5050 0    50   ~ 0
 F_RST_I
-Wire Wire Line
-	550  5100 1050 5100
-Wire Wire Line
-	1750 5100 1600 5100
-Wire Wire Line
-	1750 4550 1750 5100
-$Comp
-L 74xGxx:74LVC1G17 U2
-U 1 1 5EE0FD3E
-P 1350 5100
-F 0 "U2" H 1150 4850 50  0000 C CNN
-F 1 "74LVC1G17GW" H 1000 4950 50  0000 C CNN
-F 2 "Package_SO:TSOP-5_1.65x3.05mm_P0.95mm" H 1350 5100 50  0001 C CNN
-F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 1350 5100 50  0001 C CNN
-	1    1350 5100
-	1    0    0    1   
-$EndComp
 Text Label 550  4450 0    50   ~ 0
 F_CLK_I
 Wire Wire Line
 	1050 4450 550  4450
-$Comp
-L 74xGxx:74LVC1G17 U1
-U 1 1 5EDDF229
-P 1350 4450
-F 0 "U1" H 1150 4200 50  0000 C CNN
-F 1 "74LVC1G17GW" H 1050 4250 50  0000 C CNN
-F 2 "Package_SO:TSOP-5_1.65x3.05mm_P0.95mm" H 1350 4450 50  0001 C CNN
-F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 1350 4450 50  0001 C CNN
-	1    1350 4450
-	1    0    0    1   
-$EndComp
 Wire Wire Line
 	3150 7450 3150 7500
 Wire Wire Line
@@ -1626,7 +1596,7 @@ U 1 1 5EC903FD
 P 3150 900
 F 0 "U3" H 3750 1165 50  0000 C CNN
 F 1 "i386SX" H 3750 1074 50  0000 C CNN
-F 2 "Package_QFP:LQFP-100_14x14mm_P0.5mm" H 3450 -2700 50  0001 C CNN
+F 2 "386_v1:QFP-100_25x25_Pitch0.635mm" H 3450 -2700 50  0001 C CNN
 F 3 "" H 3450 -2700 50  0001 C CNN
 	1    3150 900 
 	1    0    0    -1  
@@ -1895,21 +1865,7 @@ Wire Wire Line
 	8150 2950 8150 2850
 Connection ~ 8150 2850
 Wire Wire Line
-	8050 3050 8250 3050
-Wire Wire Line
-	8050 3150 8250 3150
-Wire Wire Line
-	8250 3250 8050 3250
-Wire Wire Line
-	8050 3750 8250 3750
-Wire Wire Line
-	8250 3650 8050 3650
-Wire Wire Line
 	8050 3550 8250 3550
-Wire Wire Line
-	8050 3450 8250 3450
-Wire Wire Line
-	8250 3350 8050 3350
 Wire Wire Line
 	2600 5100 2750 5100
 Text Label 4650 4950 0    50   ~ 0
@@ -1976,17 +1932,6 @@ Wire Wire Line
 	4450 5350 4650 5350
 Wire Wire Line
 	4650 5450 4450 5450
-$Comp
-L 386_v1:SN74LVC4245A U10
-U 1 1 5FC8709F
-P 5850 5050
-F 0 "U10" H 6200 5365 50  0000 C CNN
-F 1 "SN74LVC4245A" H 6200 5274 50  0000 C CNN
-F 2 "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm" H 5850 5050 50  0001 C CNN
-F 3 "" H 5850 5050 50  0001 C CNN
-	1    5850 5050
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5650 5050 5750 5050
 $Comp
@@ -2077,8 +2022,6 @@ Wire Wire Line
 	5750 5450 5550 5450
 Wire Wire Line
 	5550 5950 5750 5950
-Wire Wire Line
-	5750 5850 5550 5850
 Wire Wire Line
 	5550 5750 5750 5750
 Wire Wire Line
@@ -2280,15 +2223,15 @@ Wire Wire Line
 	1900 6550 3050 6550
 Wire Wire Line
 	1900 6650 3050 6650
-Text Label 8050 3150 0    50   ~ 0
+Text Label 7900 3150 0    50   ~ 0
 W~R~_O
-Text Label 8050 3250 0    50   ~ 0
+Text Label 7900 3250 0    50   ~ 0
 D~C~_O
-Text Label 8050 3350 0    50   ~ 0
+Text Label 7900 3350 0    50   ~ 0
 M~IO~_O
-Text Label 8050 3050 0    50   ~ 0
+Text Label 7900 3050 0    50   ~ 0
 ~LOCK~_O
-Text Label 8050 3750 0    50   ~ 0
+Text Label 7900 3750 0    50   ~ 0
 ~ADS~_O
 $Comp
 L power:+3V3 #PWR0132
@@ -2589,49 +2532,25 @@ Wire Wire Line
 Wire Wire Line
 	7900 1250 8250 1250
 Connection ~ 8200 1950
-$Comp
-L 74xGxx:74LVC1G17 U12
-U 1 1 60846793
-P 7600 7050
-F 0 "U12" H 7400 6800 50  0000 C CNN
-F 1 "74LVC1G17GW" H 7300 6850 50  0000 C CNN
-F 2 "Package_SO:TSOP-5_1.65x3.05mm_P0.95mm" H 7600 7050 50  0001 C CNN
-F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 7600 7050 50  0001 C CNN
-	1    7600 7050
-	1    0    0    1   
-$EndComp
-$Comp
-L 74xGxx:74LVC1G17 U13
-U 1 1 608476A8
-P 7600 7550
-F 0 "U13" H 7400 7300 50  0000 C CNN
-F 1 "74LVC1G17GW" H 7250 7400 50  0000 C CNN
-F 2 "Package_SO:TSOP-5_1.65x3.05mm_P0.95mm" H 7600 7550 50  0001 C CNN
-F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 7600 7550 50  0001 C CNN
-	1    7600 7550
-	1    0    0    1   
-$EndComp
 Wire Wire Line
 	7300 7050 6950 7050
 Text Label 8100 7050 0    50   ~ 0
 HLDA
-Wire Wire Line
-	8100 7050 7850 7050
 Text Label 6950 7050 0    50   ~ 0
 HLDA_RAW
-Text Label 6800 7550 0    50   ~ 0
+Text Label 6800 7950 0    50   ~ 0
 W~R~_O_RAW
 Wire Wire Line
-	6800 7550 7300 7550
+	6800 7950 7300 7950
 Wire Wire Line
-	7850 7550 8100 7550
-Text Label 8100 7550 0    50   ~ 0
+	7850 7950 8100 7950
+Text Label 8100 7950 0    50   ~ 0
 W~R~_O
-Text Label 8050 3650 0    50   ~ 0
+Text Label 7900 3650 0    50   ~ 0
 ~BLE
 Text Label 8050 3550 0    50   ~ 0
 A1
-Text Label 8050 3450 0    50   ~ 0
+Text Label 7900 3450 0    50   ~ 0
 ~BHE
 Text Label 12450 3350 2    50   ~ 0
 F_D0_IO
@@ -2642,4 +2561,144 @@ Wire Wire Line
 Wire Wire Line
 	7900 1150 8250 1150
 Connection ~ 7900 1250
+Text Label 8750 7050 2    50   ~ 0
+F_HLDA_O
+Wire Wire Line
+	7850 7050 8750 7050
+Wire Wire Line
+	5750 5850 5550 5850
+$Comp
+L 386_v1:SN74LVC4245A U10
+U 1 1 5FC8709F
+P 5850 5050
+F 0 "U10" H 6200 5365 50  0000 C CNN
+F 1 "SN74LVC4245A" H 6200 5274 50  0000 C CNN
+F 2 "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm" H 5850 5050 50  0001 C CNN
+F 3 "" H 5850 5050 50  0001 C CNN
+	1    5850 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xGxx:74AHCT1G126 U12
+U 1 1 5F519424
+P 7600 7050
+F 0 "U12" H 7575 6875 50  0000 C CNN
+F 1 "74AHCT1G126" H 7575 6784 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 7600 7050 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 7600 7050 50  0001 C CNN
+	1    7600 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xGxx:74AHCT1G126 U1
+U 1 1 5F569CED
+P 1350 4450
+F 0 "U1" H 1100 4350 50  0000 C CNN
+F 1 "74AHCT1G126" H 1450 4300 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 1350 4450 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 1350 4450 50  0001 C CNN
+	1    1350 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xGxx:74AHCT1G126 U2
+U 1 1 5F56ADC8
+P 1350 5050
+F 0 "U2" H 1100 4950 50  0000 C CNN
+F 1 "74AHCT1G126" H 1450 4900 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 1350 5050 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 1350 5050 50  0001 C CNN
+	1    1350 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	550  5050 1050 5050
+Wire Wire Line
+	1600 5050 2100 5050
+Wire Wire Line
+	2100 5050 2100 4550
+$Comp
+L power:+5V #PWR04
+U 1 1 5F7471E8
+P 1350 4850
+F 0 "#PWR04" H 1350 4700 50  0001 C CNN
+F 1 "+5V" H 1365 5023 50  0000 C CNN
+F 2 "" H 1350 4850 50  0001 C CNN
+F 3 "" H 1350 4850 50  0001 C CNN
+	1    1350 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR03
+U 1 1 5F7476EF
+P 1350 4250
+F 0 "#PWR03" H 1350 4100 50  0001 C CNN
+F 1 "+5V" H 1365 4423 50  0000 C CNN
+F 2 "" H 1350 4250 50  0001 C CNN
+F 3 "" H 1350 4250 50  0001 C CNN
+	1    1350 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xGxx:74AHCT1G126 U13
+U 1 1 5F747B2F
+P 7600 7950
+F 0 "U13" H 7575 7775 50  0000 C CNN
+F 1 "74AHCT1G126" H 7575 7684 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 7600 7950 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 7600 7950 50  0001 C CNN
+	1    7600 7950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR06
+U 1 1 5F748E92
+P 7600 7750
+F 0 "#PWR06" H 7600 7600 50  0001 C CNN
+F 1 "+5V" H 7615 7923 50  0000 C CNN
+F 2 "" H 7600 7750 50  0001 C CNN
+F 3 "" H 7600 7750 50  0001 C CNN
+	1    7600 7750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5F83FE32
+P 7600 6850
+F 0 "#PWR?" H 7600 6700 50  0001 C CNN
+F 1 "+5V" H 7615 7023 50  0000 C CNN
+F 2 "" H 7600 6850 50  0001 C CNN
+F 3 "" H 7600 6850 50  0001 C CNN
+	1    7600 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5F5C13F1
+P 11900 2550
+F 0 "R?" H 11841 2504 50  0000 R CNN
+F 1 "10k" H 11841 2595 50  0000 R CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 11900 2550 50  0001 C CNN
+F 3 "~" H 11900 2550 50  0001 C CNN
+	1    11900 2550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11700 2550 11800 2550
+Wire Wire Line
+	12000 2550 13050 2550
+Wire Wire Line
+	7900 3750 8250 3750
+Wire Wire Line
+	7900 3650 8250 3650
+Wire Wire Line
+	7900 3450 8250 3450
+Wire Wire Line
+	7900 3350 8250 3350
+Wire Wire Line
+	7900 3250 8250 3250
+Wire Wire Line
+	7900 3150 8250 3150
+Wire Wire Line
+	7900 3050 8250 3050
 $EndSCHEMATC
