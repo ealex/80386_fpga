@@ -5,9 +5,9 @@
     {
       "Vendor":      "KiCad",
       "Application": "Pcbnew",
-      "Version":     "(5.1.6)-1"
+      "Version":     "(5.1.5)-3"
     },
-    "CreationDate":  "2020-07-30T18:42:53+03:00"
+    "CreationDate":  "2020-09-24T12:34:08+03:00"
   },
   "GeneralSpecs":
   {
@@ -55,11 +55,6 @@
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "386_v1-B_SilkS.gbr",
-      "FileFunction":  "Legend,Bot",
-      "FilePolarity":  "Positive"
-    },
-    {
       "Path":  "386_v1-F_Mask.gbr",
       "FileFunction":  "SolderMask,Top",
       "FilePolarity":  "Negative"
@@ -96,10 +91,6 @@
     {
       "Type":  "SolderMask",
       "Notes":  "Layer B.Mask"
-    },
-    {
-      "Type":  "Legend",
-      "Notes":  "Layer B.SilkS"
     }
   ]
 }
